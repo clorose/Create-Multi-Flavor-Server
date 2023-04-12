@@ -8,23 +8,31 @@ Directory information:
 
 ## assets
 
-- Acts as a resource pack, you can put any client resources in here, like textures, models, etc. Example: assets/kubejs/textures/item/test_item.png
+- Acts as a resource pack, you can put any client resources in here, like textures, models, etc.
+- Example: assets/kubejs/textures/item/test_item.png
 
 ## data
 
-- Acts as a datapack, you can put any server resources in here, like loot tables, functions, etc. Example: data/kubejs/loot_tables/blocks/test_block.json
+- Acts as a datapack, you can put any server resources in here, like loot tables, functions, etc.
+- Example: data/kubejs/loot_tables/blocks/test_block.json
 
 ## startup_scripts
 
-- Scripts that get loaded once during game startup - Used for adding items and other things that can only happen while the game is loading (Can be reloaded with /kubejs reload_startup_scripts, but it may not work!)
+- Scripts that get loaded once during game startup
+- Used for adding items and other things that can only happen while the game is loading
+  **(Can be reloaded with /kubejs reload_startup_scripts, but it may not work!)**
 
 ## server_scripts
 
-- Scripts that get loaded every time server resources reload - Used for modifying recipes, tags, loot tables, and handling server events (Can be reloaded with /reload)
+- Scripts that get loaded every time server resources reload
+- Used for modifying recipes, tags, loot tables, and handling server events
+  **(Can be reloaded with /reload)**
 
 ## client_scripts
 
-- Scripts that get loaded every time client resources reload - Used for JEI events, tooltips and other client side things (Can be reloaded with F3+T)
+- Scripts that get loaded every time client resources reload
+- Used for JEI events, tooltips and other client side things
+  **(Can be reloaded with F3+T)**
 
 ## config
 
